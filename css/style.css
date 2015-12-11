@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+.main {
+	background-color: #06213F;
+}
+div#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+	padding: 20px 0px 0px 0px;
+}
+
+/*-----------------****** Upper Header End ********---------------------*/
+
+.board-images {
+	float:left ;
+	width: 80px;
+	height:120px;
+	padding: 5px 5px 5px 5px ;
+}
+
+#right {
+	width: 80%;
+	float:left ;
+}
+
+#left {
+	width: 20%;
+	float:left ;
+}
+
+#board {
+	width:720px;
+	height: 576px;
+}
+
+.img {
+	width: 180px;
+	height: 144px;
+	float:left ;
+}
+
+
+#logo {
+	float: left;
+	width: 240px;
+	height: 250px;
+}
+
+#game_info {
+	float: left;
+	width: 240px;
+	height: 250px;
+
+}
+
+#restart {
+	float: left;
+	width: 240px;
+	height: 76px;
+}
+
+.pointing {
+	font-weight: bold;
+	color: #0000FF;
+	font-size: larger ;
+}
+
+.board-images {
+   border:5px solid #000000; 
+ 
+}
+
+.trPic{ 
+	width:180px; 
+	height:144px; 
+	background: url(images/card_bg.gif) no-repeat; 
+	border:5px solid #000000; 
+	} 
+	
+
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   border: 5px solid ;
+   width:150px;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+
+#thank {
+
+width: 500px;
+height: 500px;
+background-color: #ffe ;
+
+}
+
+#bpopup {
+
+width: 400px;
+height: 200px;
+background-color: #C0C0C0;
+text-align: center ;
+
+
+}
+
+#submit {
+
+border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+
+}
+
+.poptr {
+	padding: 50px 50px 50px 50px;
+	border-spacing:5em;
+	border-collapse:separate; 
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .25em;
+}
+
+
+
+
+/*Extra Effects*/
+div#wrapper {
+	padding:100px 0 0;
+	}
+#wrapper:after,
+#wrapper:before{
+	content:"";
+	display:table;
+	}
+#wrapper:after {
+	clear: both;
+	}
+#right {
+    background: #ccc;
+    box-sizing: border-box;
+    float: left;
+    padding: 60px 20px 20px;
+    width: 69%;
+	}
+#left {
+    padding: 20px;
+    width: 31%;
+	box-sizing: border-box;
+	}
+#board {
+    height: auto;
+    width: auto;
+	}
+.board-images {
+	border: 2px solid red;
+	transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-ms-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	height: auto;
+	}
+.img {
+    width: 25%;
+	text-align: center;
+	}
+.img > div {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+	}
+.img > div img {
+    width: 100%;
+	}
+#game_info {
+	
+	}
+#game_info h2 {
+	font-size: 30px;
+    letter-spacing: 0.03em;
+    padding-bottom: 22px;
+	color: #61A4D2;
+	text-decoration: underline;
+	}
+#game_info > span:first-of-type,
+#game_info > span:nth-of-type(2) {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+	}
+#game_info > span:nth-of-type(2) {
+	display:block;
+	margin-bottom: 10px;
+	}
+.pointing {
+    background: #61A4D2;
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px 13px;
+	}
+.game-points {
+	border: 2px solid #61A4D2;
+	color: #61A4D2;
+	font-size: 20px;
+	margin-left: 2px;
+	padding: 7px 15px;
+	}
+#bpopup {
+    background-color: #fff;
+    border: 3px solid #ccc;
+    padding: 40px 20px;
+	}
+#bpopup input {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+	}
+#left #refresh {
+    border: 0 none;
+    border-radius: 0;
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+	}
+#bpopup input[type="button"],
+#bpopup .button,
+#thank .button {
+    border: 0 none;
+    border-radius: 0;
+    font-size: 14px;
+    margin: 0 5px;
+    padding: 7px 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+	}
+#thank {
+	background-color: #fff;
+    border: 3px solid #ccc;
+    padding: 40px 20px;
+	text-align: center;
+	font-size: 20px;
+	height: 150px;
+	}
+#thank .position {
+    color: green;
+	}
+/*Extra Effects*/
+
+
+
+
+
+
+

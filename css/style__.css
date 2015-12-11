@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+.main {
+	background-color: #06213F;
+}
+div#wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	text-align: left;
+	padding: 20px 0px 0px 0px;
+}
+
+/*-----------------****** Upper Header End ********---------------------*/
+
+.board-images {
+	float:left ;
+	width: 80px;
+	height:120px;
+	padding: 5px 5px 5px 5px ;
+}
+
+#right {
+	width: 80%;
+	float:left ;
+}
+
+#left {
+	width: 20%;
+	float:left ;
+}
+
+#board {
+	width:720px;
+	height: 576px;
+}
+
+.img {
+	width: 180px;
+	height: 144px;
+	float:left ;
+}
+
+
+#logo {
+	float: left;
+	width: 240px;
+	height: 250px;
+}
+
+#game_info {
+	float: left;
+	width: 240px;
+	height: 250px;
+
+}
+
+#restart {
+	float: left;
+	width: 240px;
+	height: 76px;
+}
+
+.pointing {
+	font-weight: bold;
+	color: #0000FF;
+	font-size: larger ;
+}
+
+.board-images {
+   border:5px solid #000000; 
+ 
+}
+
+.trPic{ 
+	width:180px; 
+	height:144px; 
+	background: url(images/card_bg.gif) no-repeat; 
+	border:5px solid #000000; 
+	} 
+	
+
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   border: 5px solid ;
+   width:150px;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+
+#thank {
+
+width: 500px;
+height: 500px;
+background-color: #ffe ;
+
+}
+
+#bpopup {
+
+width: 400px;
+height: 200px;
+background-color: #C0C0C0;
+text-align: center ;
+
+
+}
+
+#submit {
+
+border-top: 1px solid #96d1f8;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+
+}
+
+.poptr {
+	padding: 50px 50px 50px 50px;
+	border-spacing:5em;
+	border-collapse:separate; 
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .25em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
