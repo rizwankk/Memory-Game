@@ -1,0 +1,22 @@
+
+GAME INSTRUCTIONS
+========================================================================================
+
+When you Play the Game In your Browser.
+You will notice that through mouse, images will not be selected.
+To Select Image first time Please use Any Arrow Key.
+Through Left and Right Button, you can reach Reset Button.
+To check any image you need to use Arrow Keys.
+
+
+To Select Image, Please Use Enter Key.
+
+Now you test the Application.
+
+Hopefully you will play a Nice Game.
+
+Thank You Very Much.
+
+
+
+
