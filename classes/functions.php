@@ -1,6 +1,6 @@
 <?php
 
-echo "Thanks";
+print "Thanks";
 
 ?>
 
