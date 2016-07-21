@@ -60,9 +60,11 @@ class saving {
 	}
 }
 
-$data = $_REQUEST;
+//$data = $_REQUEST;
 
-echo "<pre>"; print_r($data); echo "</pre>";
+//echo "<pre>"; print_r($data); echo "</pre>";
+
+echo "Thanks";
 
 /*$ob = new saving();
 $situation = $ob->u_insert($data);
