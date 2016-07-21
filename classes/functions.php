@@ -1,5 +1,6 @@
 <?php
 
+/*
 class saving {
 
 	private $conn ;
@@ -59,7 +60,7 @@ class saving {
 		mysqli_close($this->conn);
 	}
 }
-
+*/
 //$data = $_REQUEST;
 
 //echo "<pre>"; print_r($data); echo "</pre>";
