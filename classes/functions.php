@@ -1,5 +1,7 @@
 <?php
 
+echo "Thanks";
+
 /*
 class saving {
 
@@ -65,12 +67,10 @@ class saving {
 
 //echo "<pre>"; print_r($data); echo "</pre>";
 
-echo "Thanks";
-
 /*$ob = new saving();
 $situation = $ob->u_insert($data);
 echo $situation ;*/
 
-
+?>
 
 
